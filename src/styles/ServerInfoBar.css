@@ -1,0 +1,94 @@
+.ServerInfoBarWrapper {
+    min-height: 100vh;
+    width: 15%;
+}
+
+.ServerInfoBarHeader {
+    width: 100%;
+    height: 6%;
+    border-bottom: 1px solid #23272a;
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+}
+
+.ServerName {
+    font-weight: 2px;
+    color: white;
+    margin: 0;
+}
+
+.ServerInfo {
+    width: 100%;
+    height: 83%;
+    overflow-y: scroll;
+}
+
+.UserBar {
+    background: #222528;
+    height: 5%;
+    width: 15%;
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    position: absolute;
+}
+
+.UserBarInfo {
+    display: flex;
+}
+
+.UserImageWrapper {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.usericon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.UserInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+
+}
+.username {
+    font-size: 0.8rem;
+    color: white;
+}
+.status {
+    font-size: 0.6rem;
+    color: white;
+}
+
+.UserBarButtons {
+    display: flex;
+}
+.UserBarButton {
+    color: #abaeb5;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+}
+h5, p {
+    margin: 0;
+}
