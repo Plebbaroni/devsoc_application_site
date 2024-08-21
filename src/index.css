@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=GG+Sans:wght@400;700&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/whitney-2');
 #root{
   min-height: 100vh;
   height: 100%;
@@ -22,8 +22,9 @@ html, body{
 }
 
 @font-face {
-  font-family: 'GG Sans';
-  src: url('/fonts/gg-sans.woff2') format('woff2'),
-       url('/fonts/gg-sans.woff') format('woff'); 
-  font-style: normal; 
+  font-family: 'Whitney';
+  src: url('/fonts/whitney-bold.woff2') format('woff2'),
+       url('/fonts/whitney-bold.woff') format('woff');
+  font-style: normal;
+  font-weight: bold;
 }
