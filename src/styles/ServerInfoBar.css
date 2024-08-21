@@ -96,15 +96,40 @@
 }
 
 .Events {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem;
+    padding-top: 0;
     width: 90%;
     color: #80858f;
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
+
 .servericon {
     height: 25px;
     width: 25px;
     margin-right: 5px;
+}
+
+.TextChannels {
+    margin-top: 5%;
+    width: 90%;
+    height: 100%;
+    padding: 0.5rem;
+    padding-top: 0;
+}
+
+.TextChannel {
+    display: flex;
+    flex-direction: row;
+    height: 7%;
+    width: 90%;
+    align-items: center;
+}
+li {
+    list-style-type: none;
 }
 h5, p {
     margin: 0;

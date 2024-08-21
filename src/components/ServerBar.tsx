@@ -12,6 +12,7 @@ function ServerBar() {
             <div className='ServerDivider'>
             </div>
             <div className='ServerCircle'>
+            <img src='../src/assets/profilepic.png' className='profilepic'></img>
                 <div className='PopOutTitleWrapper'>
                     <h4 className='PopOutTitle'>Jared's Server</h4>
                 </div>

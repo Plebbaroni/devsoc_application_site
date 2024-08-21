@@ -20,10 +20,12 @@
     justify-content: center;
     padding: 0;
     position: relative;
+    overflow: hidden;
 }
 
 .ServerCircle:hover {
     border-radius: 36%;
+    overflow: visible;
 }
 
 .util {
@@ -71,6 +73,15 @@
     opacity: .6;
 }
 
+.profilepic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profilepic:hover {
+    border-radius: 36%;
+}
 .Events {
     display: flex;
     align-items: center;
