@@ -124,10 +124,27 @@
 .TextChannel {
     display: flex;
     flex-direction: row;
-    height: 7%;
-    width: 90%;
+    height: 5%;
+    width: 95%;
     align-items: center;
+    text-decoration: none;
 }
+
+.TextChannel:hover{
+    background: #414349;
+    border-radius: 8px;
+}
+.ChannelIcon {
+    height: 20px;
+    width: 20px;
+    color: #7e838c;
+}
+
+.TextChannelTitle{
+    color: rgba(221,220,223,255);
+    text-decoration: none!important;
+}
+
 li {
     list-style-type: none;
 }
