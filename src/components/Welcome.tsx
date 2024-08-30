@@ -7,7 +7,7 @@ interface nameInterface {
 
 const Welcome: React.FC<nameInterface> = ({ name }) => {
     return (
-      <div>
+      <div className='RoutesWrapper'>
         <ContentHeader name={name}/>
       </div>
     );

@@ -5,3 +5,7 @@
     background-color: #2c2f33;
     display: flex;
 }
+
+.RoutesWrapper {
+    width: 100%;
+}
