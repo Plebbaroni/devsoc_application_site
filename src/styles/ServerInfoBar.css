@@ -145,6 +145,9 @@
     text-decoration: none!important;
 }
 
+.TextChannelsText {
+    color: #80858f;
+}
 li {
     list-style-type: none;
 }
