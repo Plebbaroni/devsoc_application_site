@@ -1,11 +1,12 @@
 import React from 'react'
 import ContentHeader from './ContentHeader';
 import MessageBar from './MessageBar';
+
 interface nameInterface {
     name: string
 }
 
-const AboutMe: React.FC<nameInterface> = ({ name }) => {
+const Music: React.FC<nameInterface> = ({ name }) => {
     return (
       <div className='RoutesWrapper'>
         <ContentHeader name={name}/>
@@ -18,4 +19,4 @@ const AboutMe: React.FC<nameInterface> = ({ name }) => {
   };
   
 
-export default AboutMe
+export default Music

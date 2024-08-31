@@ -5,7 +5,7 @@ interface nameInterface {
     name: string
 }
 
-const AboutMe: React.FC<nameInterface> = ({ name }) => {
+const OtherStuff: React.FC<nameInterface> = ({ name }) => {
     return (
       <div className='RoutesWrapper'>
         <ContentHeader name={name}/>
@@ -18,4 +18,4 @@ const AboutMe: React.FC<nameInterface> = ({ name }) => {
   };
   
 
-export default AboutMe
+export default OtherStuff
