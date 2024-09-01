@@ -15,7 +15,7 @@ const AboutMe: React.FC<nameInterface> = ({ name }) => {
         <div className='ContentWrapper'>
           <WelcomeChannel message={name}/>
           <div className='FirstMessageWrapper'>
-            <img src="/assets/profilepic.png" alt="" className="FirstMsgPfp"/>
+            <img src="assets/profilepic.png" alt="" className="FirstMsgPfp"/>
             <div className='FirstMessageBody'>
                 <p className='Username'>Jared</p>
                 <p className='MsgBody'>Here's a few things about me.</p>
