@@ -4,7 +4,7 @@ function App() {
 
   return (
     <> 
-      <Router>
+       <Router basename={process.env.NODE_ENV === 'production' ? '/devsoc_application_site/' : '/'}>
         <MainPage/>
       </Router>
     </>
