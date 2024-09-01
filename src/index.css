@@ -17,14 +17,13 @@ html, body{
   margin: 0;
   border: 0;
   padding: 0;
-  font-family: 'GG Sans', sans-serif;
+  font-family: 'GG Sans';
   overflow-y: hidden;
 }
 
 @font-face {
-  font-family: 'Whitney';
-  src: url('/fonts/whitney-bold.woff2') format('woff2'),
-       url('/fonts/whitney-bold.woff') format('woff');
+  font-family: 'GG Sans';
+  src: url('assets/gg-sans-2-webfont/gg sans Medium.woff');
   font-style: normal;
   font-weight: bold;
 }
