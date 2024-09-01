@@ -1,7 +1,6 @@
 .ContentWrapper {
     height: 80%;
     width: 100%;
-    overflow: scroll;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
