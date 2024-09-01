@@ -1,1 +1,1 @@
-For best results, view in 1920x1080 resolution!
+Devsoc application site.
