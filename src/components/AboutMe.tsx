@@ -35,8 +35,8 @@ const AboutMe: React.FC<nameInterface> = ({ name }) => {
                 </ul>
                 <p className='MsgBody'>Links:</p>
                 <div className='Links'>
-                  <a href="https://github.com/Plebbaroni" target='_blank'><img src="/assets/25231.png" alt="" className='AboutMeLink'/></a>
-                  <a href="https://open.spotify.com/user/3am5c3qi207liqjscfhezprdm" target='_blank'><img src="/assets/spotify.png" alt="" className='AboutMeLink'/></a>
+                  <a href="https://github.com/Plebbaroni" target='_blank'><img src="assets/25231.png" alt="" className='AboutMeLink'/></a>
+                  <a href="https://open.spotify.com/user/3am5c3qi207liqjscfhezprdm" target='_blank'><img src="assets/spotify.png" alt="" className='AboutMeLink'/></a>
                 </div>
               </div>
           </div>

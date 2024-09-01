@@ -4,7 +4,7 @@ function ServerBar() {
   return (
     <div className="ServerBarWrapper">
             <div className='ServerCircle'>
-                <img src='/assets/discordlogo.png' className='discordicon'></img>
+                <img src='assets/discordlogo.png' className='discordicon'></img>
                 <div className='PopOutTitleWrapper'>
                     <h4 className='PopOutTitle'>This doesn't work</h4>
                 </div>
@@ -12,7 +12,7 @@ function ServerBar() {
             <div className='ServerDivider'>
             </div>
             <div className='ServerCircle'>
-            <img src='/assets/profilepic.png' className='profilepic'></img>
+            <img src='assets/profilepic.png' className='profilepic'></img>
                 <div className='PopOutTitleWrapper'>
                     <h4 className='PopOutTitle'>Jared's Server</h4>
                 </div>
