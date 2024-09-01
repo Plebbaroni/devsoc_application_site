@@ -14,7 +14,7 @@ const OtherStuff: React.FC<nameInterface> = ({ name }) => {
         <div className='ContentWrapper'>
           <WelcomeChannel message={name}/>
           <div className='FirstMessageWrapper'>
-            <img src="../src/assets/profilepic.png" alt="" className="FirstMsgPfp"/>
+            <img src="/public/assets/profilepic.png" alt="" className="FirstMsgPfp"/>
             <div className='FirstMessageBody'>
                 <p className='Username'>Jared</p>
                 <p className='MsgBody'>Here's a couple more things about me:</p>
@@ -24,7 +24,7 @@ const OtherStuff: React.FC<nameInterface> = ({ name }) => {
                   <li className='MsgBody'>I also enjoy going bowling, go-karting, watching movies, and reading manga/comics.</li>
                   <li className='MsgBody'>My favorite food is Unagi. Here's a picture I took of it:</li>
                 </ul>
-                <img src="../src/assets/unagi.jpeg" alt="" className='unagi'/>
+                <img src="/public/assets/unagi.jpeg" alt="" className='unagi'/>
               </div>
           </div>
         </div>

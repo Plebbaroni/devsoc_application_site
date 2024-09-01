@@ -46,7 +46,7 @@ function ServerInfoBar() {
         <div className="UserBar">
           <div className="UserBarInfo">
             <div className='UserImageWrapper'>
-              <img src='../src/assets/discordlogo.png' className='usericon'></img>
+              <img src='/public/assets/discordlogo.png' className='usericon'></img>
             </div>
             <div className='UserInfo'>
               <h5 className='username'>You</h5>
