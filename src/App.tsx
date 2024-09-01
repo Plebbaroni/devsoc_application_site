@@ -1,12 +1,12 @@
 import MainPage from './pages/MainPage'
-import { HashRouter as Router } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 function App() {
 
   return (
     <> 
-       <Router basename={process.env.NODE_ENV === 'production' ? '/devsoc_application_site/' : '/'}>
+       <HashRouter>
         <MainPage/>
-      </Router>
+      </HashRouter>
     </>
   )
 }
