@@ -23,7 +23,7 @@
 
 .ServerInfo {
     width: 100%;
-    height: 83%;
+    height: 84%;
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
@@ -32,7 +32,7 @@
 
 .UserBar {
     background: #222528;
-    height: 5%;
+    height: 7%;
     display: flex;
     padding: 0.5rem 1rem;
     justify-content: space-between;
@@ -124,7 +124,7 @@
 .TextChannel {
     display: flex;
     flex-direction: row;
-    height: 5%;
+    height: 25px;
     width: 95%;
     align-items: center;
     text-decoration: none;

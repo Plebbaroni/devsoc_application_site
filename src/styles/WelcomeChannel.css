@@ -1,0 +1,34 @@
+.WelcomeChannelWrapper {
+    height: 175px;
+    width: 95%;
+    margin: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 1px solid #414148;
+}
+
+.HashtagCircle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #41424a;
+}
+
+.WelcomeIcon {
+    height: 40px;
+    width: 40px;
+    color: white;
+}
+
+.WelcomeMsg {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.StartMsg {
+    color: #b5b8c0
+}

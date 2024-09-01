@@ -4,15 +4,16 @@ import AboutMe from './AboutMe'
 import VideoGames from './VideoGames'
 import Music from './Music'
 import OtherStuff from './OtherStuff'
+import "../styles/ContentTemplate.css"
 
 function ContentRoutes() {
   return (
       <Routes>
-          <Route path='/' element={<Welcome name="Welcome"/>}/>
-          <Route path='/AboutMe' element={<AboutMe name="About Me"/>}/>
-          <Route path='/VideoGames' element={<VideoGames name="Video Games"/>}/>
-          <Route path='/Music' element={<Music name="Music"/>}/>
-          <Route path='/OtherStuff' element={<OtherStuff name="Other Stuff"/>}/>
+          <Route path='/' element={<Welcome name="welcome"/>}/>
+          <Route path='/AboutMe' element={<AboutMe name="about-me"/>}/>
+          <Route path='/VideoGames' element={<VideoGames name="video-games"/>}/>
+          <Route path='/Music' element={<Music name="music"/>}/>
+          <Route path='/OtherStuff' element={<OtherStuff name="other-stuff"/>}/>
       </Routes>
   )
 }
