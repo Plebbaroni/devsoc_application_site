@@ -18,7 +18,7 @@ html, body{
   border: 0;
   padding: 0;
   font-family: 'GG Sans';
-  overflow-y: hidden;
+  overflow: hidden; 
 }
 
 @font-face {
