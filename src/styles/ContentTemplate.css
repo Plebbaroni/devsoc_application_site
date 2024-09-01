@@ -1,5 +1,27 @@
 .ContentWrapper {
-    height: 82%;
+    height: 80%;
     width: 100%;
     overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+img {
+    border-radius: 10px;
+}
+.brawlgif{
+    margin-top: 5px;
+}
+
+.unagi {
+    height: 300px;
+    width: 360;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+.chart {
+    height: 320px;
+    margin-top: 10px;
 }

@@ -20,6 +20,7 @@ const Welcome: React.FC<nameInterface> = ({ name }) => {
                 <p className='MsgBody'>Hello, my name is Jared. Welcome to my website! :D</p>
                 <p className='MsgBody'>With this site I've tried to copy the discord UI, I just couldn't resist the pun AHAHA</p>
                 <p className='MsgBody'>I've set up a couple "text channels" here where you can learn more about me! Check them out!</p>
+                <img src="../src/assets/welcome.png" alt="" />
               </div>
           </div>
         </div>

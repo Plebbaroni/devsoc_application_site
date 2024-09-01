@@ -18,13 +18,14 @@ const AboutMe: React.FC<nameInterface> = ({ name }) => {
             <img src="../src/assets/profilepic.png" alt="" className="FirstMsgPfp"/>
             <div className='FirstMessageBody'>
                 <p className='Username'>Jared</p>
-                <p className='MsgBody'>Here's a few things about me:</p>
+                <p className='MsgBody'>Here's a few things about me.</p>
                 <p className='MsgBody'>Personal Info:</p>
                 <ul>
                   <li className='MsgBody'>Name: Jared Schulz</li>
                   <li className='MsgBody'>Age: 19</li>
                   <li className='MsgBody'>Degree: Computer Science</li>
                   <li className='MsgBody'>Hometown: Cebu, Philippines</li>
+                  <li className='MsgBody'>Interests(CS Related): Data Engineering, Web Development, Backend Programming</li>
                 </ul>
                 <p className='MsgBody'>Relevant Skills:</p>
                 <ul>
@@ -34,7 +35,7 @@ const AboutMe: React.FC<nameInterface> = ({ name }) => {
                 </ul>
                 <p className='MsgBody'>Links:</p>
                 <div className='Links'>
-                  <a href="https://github.com/Plebbaroni" target='_blank'><img src="../src/assets/octicons.svg" alt="" className='AboutMeLink'/></a>
+                  <a href="https://github.com/Plebbaroni" target='_blank'><img src="../src/assets/25231.png" alt="" className='AboutMeLink'/></a>
                   <a href="https://open.spotify.com/user/3am5c3qi207liqjscfhezprdm" target='_blank'><img src="../src/assets/spotify.png" alt="" className='AboutMeLink'/></a>
                 </div>
               </div>
