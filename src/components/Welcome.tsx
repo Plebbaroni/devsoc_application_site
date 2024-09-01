@@ -14,13 +14,13 @@ const Welcome: React.FC<nameInterface> = ({ name }) => {
         <div className='ContentWrapper'>
           <WelcomeChannel message={name}/>
           <div className='FirstMessageWrapper'>
-            <img src="/public/assets/profilepic.png" alt="" className="FirstMsgPfp"/>
+            <img src="/assets/profilepic.png" alt="" className="FirstMsgPfp"/>
             <div className='FirstMessageBody'>
                 <p className='Username'>Jared</p>
                 <p className='MsgBody'>Hello, my name is Jared. Welcome to my website! :D</p>
                 <p className='MsgBody'>With this site I've tried to copy the discord UI, I just couldn't resist the pun AHAHA</p>
                 <p className='MsgBody'>I've set up a couple "text channels" here where you can learn more about me! Check them out!</p>
-                <img src="/public/assets/welcome.png" alt="" />
+                <img src="/assets/welcome.png" alt="" />
               </div>
           </div>
         </div>

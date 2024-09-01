@@ -23,7 +23,7 @@ html, body{
 
 @font-face {
   font-family: 'GG Sans';
-  src: url('assets/gg-sans-2-webfont/gg sans Medium.woff');
+  src: url('/assets/gg-sans-2-webfont/gg sans Medium.woff');
   font-style: normal;
   font-weight: bold;
 }

@@ -15,7 +15,7 @@ const AboutMe: React.FC<nameInterface> = ({ name }) => {
         <div className='ContentWrapper'>
           <WelcomeChannel message={name}/>
           <div className='FirstMessageWrapper'>
-            <img src="/public/assets/profilepic.png" alt="" className="FirstMsgPfp"/>
+            <img src="/assets/profilepic.png" alt="" className="FirstMsgPfp"/>
             <div className='FirstMessageBody'>
                 <p className='Username'>Jared</p>
                 <p className='MsgBody'>Here's a few things about me.</p>
@@ -35,8 +35,8 @@ const AboutMe: React.FC<nameInterface> = ({ name }) => {
                 </ul>
                 <p className='MsgBody'>Links:</p>
                 <div className='Links'>
-                  <a href="https://github.com/Plebbaroni" target='_blank'><img src="/public/assets/25231.png" alt="" className='AboutMeLink'/></a>
-                  <a href="https://open.spotify.com/user/3am5c3qi207liqjscfhezprdm" target='_blank'><img src="/public/assets/spotify.png" alt="" className='AboutMeLink'/></a>
+                  <a href="https://github.com/Plebbaroni" target='_blank'><img src="/assets/25231.png" alt="" className='AboutMeLink'/></a>
+                  <a href="https://open.spotify.com/user/3am5c3qi207liqjscfhezprdm" target='_blank'><img src="/assets/spotify.png" alt="" className='AboutMeLink'/></a>
                 </div>
               </div>
           </div>
